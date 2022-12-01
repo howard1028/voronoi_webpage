@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>iPortfolio Bootstrap Template - Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio - v3.9.1
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/bg.png" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">資工所 碩一</a></h1>
+        <h1 class="text-light"><a href="index.html">M103040072 吳浩宇</a></h1>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>首頁</span></a></li>
+          <li><a href="#hero2" class="nav-link scrollto active"><i class="bx bx-server"></i> <span>軟體規格書</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>軟體說明</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>程式設計</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>軟體測試與實驗結果</span></a></li>
+          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>結論與心得</span></a></li>
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>附錄</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Voronoi diagram</h1>
+      <p>資工所 碩一 M103040072 吳浩宇</p>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+
+  <!-- ======= Hero2 Section ======= -->
+  <section id="hero2" class="resume">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>軟體規格書</h2>
+      </div>
+
+
+
+      <h2 class="resume-title">功能規格與介面規格</h2>
+      <div class="section-bg" data-aos="fade-up" data-aos-delay="100">
+        <br>
+        <div class="col-lg-6" data-aos="fade-up">
+          <h3 class="resume-title">主介面</h3>
+          <img src="assets/img/0.png">
+        </div>
+        
+        <br>
+        <div class="resume-item" data-aos="fade-up" data-aos-delay="100">
+          <h3 class="resume-title">畫布</h3>
+          <ul>
+            <li>600x600</li>
+            <li>(x,y)：鼠標的座標</li>
+          </ul>
+        </div>
+
+        <div class="resume-item" data-aos="fade-up" data-aos-delay="100">
+          <h3 class="resume-title">按鈕</h3> 
+          <ul>
+            <li>Clear：清空畫布</li>
+            <li>Read data：讀取資料點檔案並匯入</li>
+            <li>Print data：印出讀到的資料點</li>
+            <li>Start：直接印出Voronoi diagram</li>
+            <li>Click me for next step：一步一步繪製結果</li>
+          </ul>
+        </div>
+      </div>
+
+
+      <h2 class="resume-title">輸出與輸入（資料）規格</h2>      
+      <div class="section-bg" data-aos="fade-up" data-aos-delay="100">
+        <br>
+        <div class="resume-item" data-aos="fade-up" data-aos-delay="100">
+          <h3 class="resume-title">輸入</h3>
+
+          <p><em>[方法一]滑鼠在畫布上任意點擊</em></p>
+          <ol>
+            <li>直接在畫布上點選</li>
+            <li>按Start印出Voronoi diagram</li>
+            <li>按Click me for next step，一步一步繪製結果</li>
+            <li>印出的點、線存入output.txt，且以lexical order順序排列</li>
+          </ol>
+
+
+          <p><em>[方法二]讀取檔案</em></p>
+          <ol>
+            <li>點擊read data</li>
+            <li>選擇要輸入的檔案</li>
+            <li>點擊print data，印出檔案內的點</li>
+            <li>按Start印出Voronoi diagram</li>
+            <li>按Click me for next step，一步一步繪製結果</li>
+            <li>印出的點、線存入output.txt，且以lexical order順序排列</li>
+          </ol>
+        </div>
+
+        <div class="section-bg" data-aos="fade-up" data-aos-delay="100">
+          <div class="resume-item" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">檔案格式範例</h3>
+
+            <p><em>=========================[輸入、輸出]=========================</em></p>
+            P 100 100<br>
+            P 100 200<br>
+            P 200 100<br>
+            P 200 200<br>
+            E 0 150 150 150<br>
+            E 150 0 150 150<br>
+            E 150 150 150 600<br>
+            E 150 150 600 150<br>
+            <br>
+
+
+            <p><em>===================[輸入，可有#、空格、換行]===================</em></p>
+            #五點測試 隨意五點 <br>
+            5<br>
+            123 456<br>
+            213 478<br>
+            11 590<br>
+            234 77<br>
+            99 68<br>
+            <br>
+            #五點測試 隨意五點<br>
+            5<br>
+            123 456<br>
+            456 123<br>
+            1 1<br>
+            120 459<br>
+            400 100<br>
+            #五點測試 隨意五點<br>
+            5<br>
+            567 234<br>
+            79 34<br>
+            34 90<br>
+            432 453<br>
+            77 111<br>
+            #=======================================================<br>
+            <br>
+
+
+          </div>
+        </div>
+      </div>
+
+      <br>
+      <h2 class="resume-title">軟體測試規劃書</h2>
+      <div class="section-bg" data-aos="fade-up" data-aos-delay="100">
+        <div class="resume-item" data-aos="fade-up" data-aos-delay="100">
+          <ul>
+            <li>1~3點：直接解</li>
+            <li>4~6點：Divide及Merge一次</li>
+            <li>7點以上：Divide及Merge多次</li>
+          </ul>
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </section><!-- End Hero2 -->
+
+
+  <!-- ======= About Section ======= -->
+  <section id="about" class="about">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>軟體說明</h2>
+      </div>
+
+      <br>
+      <div class="resume-item" data-aos="fade-up" data-aos-delay="100">
+        <h3 class="resume-title">點擊voronoi.exe，開啟執行檔</h3>
+        <img src="assets/img/ex.PNG">
+      </div>
+
+      <br>
+      <div class="resume-item" data-aos="fade-up" data-aos-delay="100">
+        <h3 class="resume-title">點擊read data，讀取檔案</h3>
+        <img src="assets/img/read.PNG">
+      </div>
+
+      <br>
+      <div class="col-lg-6" data-aos="fade-up">
+        <h3 class="resume-title">點擊print data，繪製點</h3>
+        <img src="assets/img/1.png">
+      </div>
+      
+      <br>
+      <div class="resume-item" data-aos="fade-up" data-aos-delay="100">
+        <h3 class="resume-title">點擊Click me for next step，繪製下一步</h3>
+        <img src="assets/img/2.png">
+      </div>
+
+      <br>
+      <div class="resume-item" data-aos="fade-up" data-aos-delay="100">
+        <h3 class="resume-title">點擊Start，直接繪製完成</h3>
+        <img src="assets/img/14.png">
+      </div>
+      
+      <br>
+      <div class="resume-item" data-aos="fade-up" data-aos-delay="100">
+        <h3 class="resume-title">點擊clear，清空畫布</h3>
+        <img src="assets/img/0.png">
+      </div>
+      
+
+    </div>
+  </section><!-- End About Section -->
+
+  <!-- ======= Resume Section ======= -->
+  <section id="resume" class="resume">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>程式設計</h2>
+      </div>
+
+      <h2 class="resume-title">資料結構</h2>
+      <div class="section-bg" data-aos="fade-up" data-aos-delay="100">
+        
+        <br>
+        <div class="resume-item" data-aos="fade-up" data-aos-delay="100">
+          <h3 class="resume-title">點</h3>
+          dot = [(x1,y1),(x2,y2),...] #(x1,y1)為一個點
+        </div>
+
+        <div class="resume-item" data-aos="fade-up" data-aos-delay="100">
+          <h3 class="resume-title">邊</h3> 
+          edge = [(x1,y1,x2,y2,x3,y3,x4,y4),...] #(x1,y1)和(x2,y2)形成一個Voronoi diagram的邊，(x3,y3)和(x4,y4)為該Convex hull的邊，並用lexical order排序
+          <img src="assets/img/4_2.png">
+        </div>
+
+        <div class="resume-item" data-aos="fade-up" data-aos-delay="100">
+          <h3 class="resume-title">Convex hull</h3> 
+          dot = [(x1,y1),(x2,y2),...] #最左邊點(x1,y1)開始，以順時針方向排序的點
+        </div>
+        <br>
+      </div>
+
+
+      <h2 class="resume-title">小細節</h2>      
+      <div class="section-bg" data-aos="fade-up" data-aos-delay="100">
+        <br>
+        <div class="resume-item" data-aos="fade-up" data-aos-delay="100">
+          <h3 class="resume-title">兩點解法</h3>
+          <p>需考慮是否為垂直、水平、是否為同一點，並將各種case列出</p>
+        </div>
+
+        <div class="resume-item" data-aos="fade-up" data-aos-delay="100">
+          <h3 class="resume-title">三點解法</h3>
+          <p>需考慮三角形為銳角、鈍角、直角、外心在三角形內或外、線要往內或往外畫、是否三點共線、是否點在同一點上，將各種case列出</p>
+        </div>
+
+        <div class="resume-item" data-aos="fade-up" data-aos-delay="100">
+          <h3 class="resume-title">三點以上解法</h3>
+          <p>先將點divide，各自畫出Voronoi diagram後，再combine</p>
+        </div>
+
+        <div class="resume-item" data-aos="fade-up" data-aos-delay="100">
+          <h3 class="resume-title">外心</h3>
+          <p>需考慮是否三點共線，若是則沒有外心</p>
+        </div>
+
+        <div class="resume-item" data-aos="fade-up" data-aos-delay="100">
+          <h3 class="resume-title">畫布的起始點</h3>
+          <p>需注意畫布左上為(0,0)，向右x增加，向下y增加，並不是左下為(0,0)，因此考慮順時針轉、逆時針轉、外積、畫線方向時須注意</p>
+        </div>
+
+        <div class="resume-item" data-aos="fade-up" data-aos-delay="100">
+          <h3 class="resume-title">Voronoi diagram的邊</h3>
+          <p>除了Voronoi diagram的邊，畫該中垂線的兩點也需記住，在merge時要用</p>
+        </div>
+        
+        <div class="resume-item" data-aos="fade-up" data-aos-delay="100">
+          <h3 class="resume-title">Hyperplane畫線</h3>
+          <p>計算交點時要考慮是否真的有交到</p>
+        </div>
+
+        <div class="resume-item" data-aos="fade-up" data-aos-delay="100">
+          <h3 class="resume-title">Hyperplane消線</h3>
+          <p>消完一條線要考慮該線是否還有與其他線相交、是否要繼續沿著該線消</p>
+        </div>
+          
+        <br>
+      </div>
+
+      <h2 class="resume-title">多點畫Voronoi diagram流程</h2>
+      <div class="section-bg" data-aos="fade-up" data-aos-delay="100"> 
+        <br>
+        <div class="resume-item" data-aos="fade-up" data-aos-delay="100">
+          <ol>
+            <li>將全部點divide成兩點或三點</li>
+            <li>將左、右半邊各自畫Convex hull、Voronoi diagram</li>
+            <li>將左右兩邊Convex hull合成一個大Convex hull</li>
+            <li>從大Convex hull的上切線開始畫中垂線，直到碰到Voronoi diagram的線</li>
+            <li>從碰到Vovonoi diagram的點開始，沿著另外兩點(畫中垂線的兩點、畫出碰到的Voronoi diagram的兩點，這兩個點集沒有重複的兩點)畫中垂線</li>
+            <li>畫到碰到Convex hull下切線為止</li>
+            <li>從第一個碰到的點開始，消掉和下一個點的旋轉方向同方向的Voronoi diagram</li>
+            <li>直到全部merge完</li>
+          </ol>
+          <br>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Resume Section -->
+
+  <!-- ======= Portfolio Section ======= -->
+  <section id="portfolio" class="resume">
+    <div class="container">
+      <div class="section-title">
+        <h2>軟體測試與實驗結果</h2>
+      </div>      
+
+      <div class="section-bg">
+        <br>
+        <p>經過測試，6點以下大部分可正常運行，但7點以上常會有錯誤，估計是divide and conquer部分尚未完工導致</p>
+
+        <div class="resume-item" data-aos="fade-up" data-aos-delay="100">
+          <h3 class="resume-title">測試環境</h3>
+          <ul>
+            <li>處理器	Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz   3.19 GHz</li>
+            <li>已安裝記憶體(RAM)	24.0 GB (23.8 GB 可用)</li>
+            <li>顯示卡 NVIDIA GeForce GTX 1050</li>
+            <li>系統版本	Windows 10 專業版</li>
+            <li>編輯器  Visual Studio Code</li>
+            <li>使用語言  Python3</li>
+          </ul>
+        </div> 
+        
+        <div class="resume-item" data-aos="fade-up" data-aos-delay="100">
+          <h3 class="resume-title">Step by step運行結果</h3>
+        </div>
+
+        <div class="section-bg">
+          <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img src="assets/img/0.PNG" class="img-fluid" alt="">
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img src="assets/img/1.PNG" class="img-fluid" alt="">
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img src="assets/img/2.PNG" class="img-fluid" alt="">
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img src="assets/img/3.PNG" class="img-fluid" alt="">
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img src="assets/img/4.PNG" class="img-fluid" alt="">
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img src="assets/img/5.PNG" class="img-fluid" alt="">
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img src="assets/img/6.PNG" class="img-fluid" alt="">
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img src="assets/img/7.PNG" class="img-fluid" alt="">
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img src="assets/img/8.PNG" class="img-fluid" alt="">
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img src="assets/img/9.PNG" class="img-fluid" alt="">
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img src="assets/img/10.PNG" class="img-fluid" alt="">
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img src="assets/img/11.PNG" class="img-fluid" alt="">
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img src="assets/img/12.PNG" class="img-fluid" alt="">
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img src="assets/img/13.PNG" class="img-fluid" alt="">
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img src="assets/img/14.PNG" class="img-fluid" alt="">
+              </div>
+            </div>
+          </div>
+
+        </div>        
+      </div>
+
+      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+
+
+
+    </div>
+  </section><!-- End Portfolio Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Services</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <div class="icon"><i class="bi bi-briefcase"></i></div>
+            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon"><i class="bi bi-card-checklist"></i></div>
+            <h4 class="title"><a href="">Dolor Sitema</a></h4>
+            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon"><i class="bi bi-bar-chart"></i></div>
+            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon"><i class="bi bi-binoculars"></i></div>
+            <h4 class="title"><a href="">Magni Dolores</a></h4>
+            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon"><i class="bi bi-brightness-high"></i></div>
+            <h4 class="title"><a href="">Nemo Enim</a></h4>
+            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon"><i class="bi bi-calendar4-week"></i></div>
+            <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Testimonials</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row" data-aos="fade-in">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>A108 Adam Street, New York, NY 535022</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>info@example.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+1 5589 55488 55s</p>
+              </div>
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>iPortfolio</span></strong>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
